@@ -38,6 +38,11 @@ This project streamlines the process of configuring CloudWatch alarms to monitor
 ### Step 1: Install Apache2
 ```bash
 sudo apt-get install apache2
+```
+```bash
 sudo systemctl start apache2
+```
+```bash
 sudo systemctl status apache2
 ```
+
