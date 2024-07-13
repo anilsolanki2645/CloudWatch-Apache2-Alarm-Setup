@@ -82,3 +82,5 @@ chmod 775 *
 curl http://169.254.169.254/latest/meta-data/instance-id
 ```
 
+### Step 6: Create apache2-status.py Script
+- Use apache2-status.py File From this repository.
