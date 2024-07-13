@@ -75,3 +75,10 @@ touch instance-id.sh instance-id apache2-status.py
 ```bash
 chmod 775 *
 ```
+
+### Step 5: Add this code to instance-id.sh File
+```bash
+#!/bin/bash
+curl http://169.254.169.254/latest/meta-data/instance-id
+```
+
