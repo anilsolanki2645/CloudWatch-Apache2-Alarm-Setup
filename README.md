@@ -46,3 +46,10 @@ sudo systemctl start apache2
 sudo systemctl status apache2
 ```
 
+### Step 2: Check Python Version and Install Pip
+```bash
+sudo apt-get install python3-pip
+```
+```bash
+pip install boto3
+```
