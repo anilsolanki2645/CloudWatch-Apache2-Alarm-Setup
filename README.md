@@ -112,5 +112,5 @@ crontab -e
 
 ## Note:
 Please read the comments and instructions carefully in the code to avoid errors or conflicts. This setup is intended for educational purposes and may require adjustments based on specific use cases.
-
+#
 This CloudWatch Apache2 Alarm Setup project demonstrates the integration of various technologies to achieve automated monitoring and alerting for Apache2 servers, showcasing a practical approach to maintaining web server health in a cloud environment.
