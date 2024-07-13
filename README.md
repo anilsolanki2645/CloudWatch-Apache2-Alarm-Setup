@@ -16,6 +16,11 @@ Welcome to the CloudWatch Apache2 Alarm Setup project. This initiative automates
 
 This project streamlines the process of configuring CloudWatch alarms to monitor the health of an Apache2 server without the need for installing an AWS agent. By following the steps outlined, users can achieve an automated monitoring system that alerts them via email whenever the Apache2 server status changes.
 
+## Main Purpose
+
+The primary goal of this project is to provide a dynamic and automated solution for monitoring the status of various external services using AWS CloudWatch. Although the provided example focuses on Apache2, the same approach can be applied to other services such as Nginx, ActiveMQ, Elasticsearch, Tomcat, and more. This flexibility makes it a versatile tool for maintaining the health of different server environments.
+
+
 ## Project Workflow
 
 1. **Install Apache2**
