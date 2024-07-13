@@ -89,3 +89,9 @@ curl http://169.254.169.254/latest/meta-data/instance-id
 ```bash
 crontab -e
 ```
+- Add the following lines:
+```bash
+* * * * * sh /bashcripts/instance-id.sh > /bashcripts/instance-id
+* * * * * python3 /bashcripts/apache2-status.py
+```
+
