@@ -62,3 +62,16 @@ sudo apt-get install awscli
 aws configure
 ```
 
+### Step 4: Create Directory and Necessary Files
+```bash
+mkdir /bashcripts
+```
+```bash
+cd /bashcripts/
+```
+```bash
+touch instance-id.sh instance-id apache2-status.py
+```
+```bash
+chmod 775 *
+```
