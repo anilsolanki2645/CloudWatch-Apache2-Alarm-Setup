@@ -53,3 +53,12 @@ sudo apt-get install python3-pip
 ```bash
 pip install boto3
 ```
+
+### Step 3: Install AWS CLI and Configure AWS
+```bash
+sudo apt-get install awscli
+```
+```bash
+aws configure
+```
+
